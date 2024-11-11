@@ -59,6 +59,18 @@
         footer p {
             margin: 0;
         }
+
+        .profile-image {
+            width: 300px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+
+        .achievements img {
+            width: 200px;
+            margin: 10px;
+            border-radius: 10px;
+        }
     </style>
 </head>
 
@@ -67,7 +79,7 @@
     <header>
         <h1>Vivek Mishra</h1>
         <p>Computer Science Engineer | Aspiring Programmer</p>
-        <img src="https://github.com/vivek255cyber/vivek255cyber.github.io/raw/master/asset/IMG_20200911_181822.jpg" alt="Vivek Mishra" style="width:300px; border-radius:50%;">
+        <img src="https://github.com/vivek255cyber/vivek255cyber.github.io/raw/master/asset/IMG_20200911_181822.jpg" alt="Vivek Mishra" class="profile-image">
     </header>
 
     <!-- About Me Section -->
@@ -89,23 +101,32 @@
         <h2 class="section-title">Achievements</h2>
         <ul class="achievement-list">
             <li>My thoughts have been broadcast many times on the ABP news channel.</li>
-            <li>Completed multiple online courses related to Data Science, Machine Learning, and Programming.</li>
-            <li>Active participant in programming competitions and hackathons.</li>
-            <li>Speaker at several tech events and workshops on the Internet of Things (IoT).</li>
         </ul>
 
-        <h2>Video Achievement</h2>
+        <h2>My Tweet Broadcast on ABP News</h2>
+        <!-- Video remains here without additional text content -->
         <video width="620" height="480" controls>
             <source src="https://github.com/vivek255cyber/vivek255cyber.github.io/raw/master/asset/Screenrecorder-2019-10-04-22-51-56-716.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
+
+        <h2 class="section-title">My Gallery</h2>
+        <div class="achievements">
+            <img src="https://github.com/vivek255cyber/vivek255cyber.github.io/raw/master/asset/IMG_20200911_181822.jpg" alt="Achievement 1">
+            <img src="https://github.com/vivek255cyber/vivek255cyber.github.io/raw/master/asset/IMG_20200911_181822.jpg" alt="Achievement 2">
+            <img src="https://github.com/vivek255cyber/vivek255cyber.github.io/raw/master/asset/IMG_20200911_181822.jpg" alt="Achievement 3">
+        </div>
     </div>
 
-    <footer>
-        <p>Developed by Vivek Mishra</p>
-        <p>Connect with me:</p>
-        <a href="https://www.linkedin.com/in/vivek-mishra-5bba9a168/" target="_blank">LinkedIn</a> |
-        <a href="mailto:vivek.mishra7081@mail.com">Email</a>
+    <!-- Footer -->
+    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">Developed by Vivek Mishra</p>
     </footer>
 
 </body>
