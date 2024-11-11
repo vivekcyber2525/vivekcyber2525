@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Vivek Portfolio</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Mishra - Programmer</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <style>
@@ -15,64 +15,84 @@
             margin: 0;
             padding: 0;
         }
-        img {
-            width: 100%;
-            height: auto;
-            display: block;
-            margin-bottom: 20px;
+
+        header {
+            text-align: center;
+            padding: 40px;
         }
-        .photo-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 16px;
-            justify-content: center;
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
         }
-        .photo-grid div {
-            flex: 1;
-            max-width: 30%;
+
+        header p {
+            font-size: 1.2em;
         }
+
+        .section-title {
+            text-align: center;
+            margin: 40px 0;
+            font-size: 2em;
+            text-transform: uppercase;
+        }
+
+        .achievement-list {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .achievement-list li {
+            background-color: #444;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
         footer {
             text-align: center;
             padding: 20px;
             background-color: #111;
         }
+
+        footer p {
+            margin: 0;
+        }
+
     </style>
 </head>
 
 <body>
 
-    <header style="text-align: center; padding: 40px;">
+    <header>
         <h1>Vivek Mishra</h1>
-        <p>Computer Science Engineer</p>
+        <p>Computer Science Engineer & Aspiring Programmer</p>
+        <img src="https://github.com/vivek255cyber/vivek255cyber.github.io/raw/master/asset/IMG_20200911_181822.jpg" alt="Vivek Mishra" style="width:300px; border-radius:50%;">
     </header>
 
-    <section>
-        <h2 style="text-align: center;">My Photos</h2>
+    <!-- Achievements Section -->
+    <div class="w3-padding-64 w3-content w3-text-grey">
+        <h2 class="section-title">Achievements</h2>
+        <ul class="achievement-list">
+            <li>My Thoughts have been broadcast many times on the ABP news channel.</li>
+            <li>Completed multiple online courses related to Data Science, Machine Learning, and Programming.</li>
+            <li>Active participant in programming competitions and hackathons.</li>
+            <li>Speaker at several tech events and workshops on the Internet of Things (IoT).</li>
+        </ul>
 
-        <div class="photo-grid">
-            <div>
-                <img src="https://github.com/vivekcyber2525/vivekcyber2525.github.io/blob/master/vivek%20omaxe.jpeg?raw=true" alt="Photo 1">
-            </div>
-            <div>
-                <img src="https://github.com/vivek255cyber/vivek255cyber.github.io/raw/master/asset/IMG_-ndt1qb.jpg" alt="Photo 2">
-            </div>
-            <div>
-                <img src="https://github.com/vivek255cyber/vivek255cyber.github.io/raw/master/asset/IMG_20200211_115242.jpg" alt="Photo 3">
-            </div>
-            <div>
-                <img src="https://github.com/vivekcyber2525/vivekcyber2525.github.io/blob/master/Vivek%20dev.jpeg?raw=true" alt="Photo 4">
-            </div>
-            <div>
-                <img src="https://github.com/vivekcyber2525/vivekcyber2525.github.io/blob/master/vivek%20taj.jpeg?raw=true" alt="Photo 5">
-            </div>
-            <div>
-                <img src="https://github.com/vivek255cyber/vivek255cyber.github.io/raw/master/asset/SAVE_20190503_221107.jpeg" alt="Photo 6">
-            </div>
-        </div>
-    </section>
+        <h2>Video Achievement</h2>
+        <video width="620" height="480" controls>
+            <source src="https://github.com/vivek255cyber/vivek255cyber.github.io/raw/master/asset/Screenrecorder-2019-10-04-22-51-56-716.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 
     <footer>
         <p>Developed by Vivek Mishra</p>
+        <p>Connect with me:</p>
+        <a href="https://www.linkedin.com/in/vivek-mishra-5bba9a168/" target="_blank">LinkedIn</a> |
+        <a href="mailto:vivek.mishra7081@mail.com">Email</a>
     </footer>
 
 </body>
